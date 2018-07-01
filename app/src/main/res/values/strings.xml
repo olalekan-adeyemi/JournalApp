@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="action_settings">Settings</string>
+    <string name="client_id">418120140276-o7k8pi2vuiq6gealh4q8jgtrcv2dca9g.apps.googleusercontent.com</string>
+    <string name="loading">Please wait &#8230;</string>
+    <string name="sign_in_failed">Authentication failed. Please try again</string>
+    <string name="action_sign_out">Sign Out</string>
+
+    <!-- Strings for AddNoteActivity -->
+    <string name="edit_note_title">Note title</string>
+    <string name="edit_note_description">Write down your thoughts, tasks or goals&#8230;</string>
+    <string name="welcome_message">Welcome back, %1$s!</string>
+    <string name="application_description">Write and collect everything that matters.</string>
+    <string name="anonymous_user">user</string>
+
+</resources>
