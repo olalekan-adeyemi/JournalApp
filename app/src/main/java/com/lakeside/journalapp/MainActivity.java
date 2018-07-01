@@ -155,8 +155,9 @@ public class MainActivity extends GoogleAuth implements NotesAdapter.ItemClickLi
     @Override
     protected void onResume() {
         super.onResume();
-
-        fetchUserNotes();
+        if(mUser != null) {
+            fetchUserNotes();
+        }    
     }
 
     private void fetchUserNotes() {
